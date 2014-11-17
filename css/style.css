@@ -46,3 +46,92 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Borders and shading for divisions */
+body {
+	background-color: LightGray;
+}
+div {
+	border: 1 px solid Chocolate;
+}
+
+/* navigation bar */
+
+.top-navigation{
+	background-color: #fff;
+}
+
+.top-navigation > .content{
+	height: 4.3em;
+	width: 70em;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.logo {
+	padding-top: 0.8em;
+	padding-left: 10em;
+}
+
+li {
+	display: inline;
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+	font-size: 1em;
+	font-family: 'roboto', sans-serif;
+	color: #989898;
+	font-weight: 300;
+	letter-spacing: 0.07em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.links {
+	float: right;
+	padding-top: 0.8em;
+	padding-right: 9em;
+}
+
+.meetkarma {
+	color: #606060;
+	font-weight: 400;
+}
+
+/* Background Image Section */
+
+.introduction {
+	background-image: url(../images/first-background.jpg);
+	text-align: center;
+	font-family: 'roboto', sans-serif;
+	background-repeat: no-repeat;
+	height: 40em;
+	color: white;
+	overflow-y: hidden;
+	position: relative;
+	background-position: center bottom;
+}
+
+.introducingkarma {
+	font-size: 3em;
+	font-weight: 100;
+	padding-top: 3.5em;
+}
+
+.subheading {
+	font-size: 1.5em;
+	font-weight: 100;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.button {
+	font-size: 1em;
+	font-weight: 300;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 0.5em;
+	line-height: 1.33;
+	width: 10em;
+	background-color: #FF6600;
+	margin: 0 auto;
+}
